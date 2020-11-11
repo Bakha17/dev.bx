@@ -4,14 +4,13 @@ function example () {
     $a = readline();
     echo 'Введите число b ';
     $b = readline() . PHP_EOL;
-    if (is_numeric($a)){
-        echo 'Результат ' . $summ = $a + $b . PHP_EOL;
+    if (is_numeric($a) && is_numeric($b)){
+        $summ = $a + $b;
+        echo 'Результат ' . $summ . PHP_EOL;
     }
-    else if (is_numeric($b)){
-        echo 'Результат ' . $summ = $a + $b . PHP_EOL;
-    }
+
     else {
-        echo 'Введите правильное значение';
+        echo 'Введите правильное значение' . PHP_EOL;
     }
 
     echo 'Введите Y если хотите продолжить, N чтобы завершить ';
