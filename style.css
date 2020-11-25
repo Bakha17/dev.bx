@@ -1,0 +1,128 @@
+@font-face { font-family: Delicious; }
+@font-face { font-family: Delicious; font-weight: bold; }
+.dashboard__head {
+    width: 100%;
+    height: 401px;
+    background: rgba(0, 101, 242, 0.12);
+}
+
+.head__text {
+    position: absolute;
+    width: 540px;
+
+    left: calc(50% - 540px / 2);
+    top: 60px;
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.5px;
+
+}
+
+.head__text._text2 {
+    top: 180px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.img_pay {
+    position: absolute;
+    top: 315px;
+    left: calc(50% - 91.55px / 2 - 154.23px);
+}
+
+.img_pay.android {
+    left: calc(50% - 43.7px / 2 - 51.73px);
+}
+
+.img_pay.apple {
+    left: calc(50% - 51.11px / 2 + 30.25px);
+}
+
+.img_pay.smg {
+    left: calc(50% - 109.63px / 2 + 145.18px);
+}
+
+.dashboard__body {
+    height: 500px;
+    width: 100%;
+}
+
+.body {
+    width: 445px;
+    height: 299px;
+}
+
+h1 {
+    position: absolute;
+    width: 445px;
+    margin-top: 100px;
+    margin-left: 165px;
+    font-family: Helvetica Neue;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
+
+.text__body {
+    position: absolute;
+    width: 445px;
+    margin-left: 165px;
+    margin-top: 244px;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.body__link {
+    position: absolute;
+    width: 88px;
+    height: 28px;
+    margin-left: 165px;
+    margin-top: 371px;
+    font-family: Helvetica Neue;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.body__img {
+    margin-top: 60px;
+    margin-left: 680px;
+}
+
+.dashboard__end {
+    width: 100%;
+    height: 550px;
+}
+
+.end__text {
+    position: absolute;
+    font-family: Helvetica Neue;
+    margin-left: 165px;
+}
+
+h2 {
+    position: absolute;
+}
+
+h3 {
+
+    padding-top: 68px;
+}
+
+.end__text1 {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+h4{
+    padding-top: 16px;
+}
+ul{
+    padding-top: 26px;
+}
